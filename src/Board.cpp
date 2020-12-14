@@ -25,8 +25,8 @@ void Board::draw()
 			std::cout << "| " << board_[line][column] << " ";
 		}
 		std::cout << "| \n";
-		std::cout << "-   -   -   -\n";
 	}
+		std::cout << "-   -   -   -\n";
 }
 
 bool Board::check()
